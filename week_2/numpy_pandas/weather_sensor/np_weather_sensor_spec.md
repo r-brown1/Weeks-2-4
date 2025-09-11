@@ -47,9 +47,7 @@ weather_sensor/
 │ └── utils.py # Helper functions (e.g., normalization, conversions)
 │
 ├── notebooks/
-│ └── weather_analysis.ipynb # Jupyter notebook demonstrating end-to-end processing
-│
-└── README.md
+└── weather_analysis.ipynb # Jupyter notebook demonstrating end-to-end processing
 ```
 
 ### ✅ Code Quality Criteria

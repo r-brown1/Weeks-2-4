@@ -8,7 +8,7 @@ Build a small toolkit to manage and interact with personal data such as names, a
 ## 📂 Project Structure
 
 ```aiignore
-personal_data_toolkit/
+data_toolkit/
 │
 ├── main.py
 ├── data/
@@ -16,9 +16,9 @@ personal_data_toolkit/
 ├── utils/
 │ ├── info_utils.py
 │ └── hobby_utils.py
-└── README.md
+└── data_toolkit_spec.md
 ```
-
+. 
 
 ---
 

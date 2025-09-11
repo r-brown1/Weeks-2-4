@@ -15,7 +15,7 @@ data_explorer/
 ├── transformations/
 │ ├── number_ops.py
 │ └── string_ops.py
-└── README.md
+└── data_explorer_spec.md
 ```
 
 

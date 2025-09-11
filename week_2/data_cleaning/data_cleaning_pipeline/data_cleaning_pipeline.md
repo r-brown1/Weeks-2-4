@@ -19,8 +19,9 @@ This mini project guides you through creating a robust data cleaning pipeline fo
 - Optional: Jupyter Notebook for exploratory testing
 
 ### Folder Structure & Naming Conventions
+
 ```aiignore
-data-cleaning-pipeline/
+data_cleaning_pipeline/
 │
 ├── data/
 │ └── data.csv # Raw dataset input file
