@@ -55,8 +55,7 @@ student_analytics/
 │
 ├── notebooks/
 │ └── student_report.ipynb # Jupyter notebook for analysis
-│
-└── README.md
+└── pd_student_perf_analytics.md
 ```
 
 

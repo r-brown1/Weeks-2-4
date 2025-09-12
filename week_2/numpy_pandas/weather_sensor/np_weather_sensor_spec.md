@@ -21,11 +21,7 @@ You're working on an IoT-based weather monitoring system. The system collects te
    - Hour with highest average temperature across all cities.
 4. **Transformations**:
    - Convert the array to Fahrenheit.
-   - Normalize the temperatures (z-score normalization).
-5. **Array Operations**:
-   - Add Gaussian noise to simulate sensor error.
-   - Perform element-wise addition and multiplication with scalar adjustments.
-6. **Slicing**:
+5**Slicing**:
    - Extract temperatures for day 3, hours 12–18, for all cities.
 
 #### Core Dependencies:
