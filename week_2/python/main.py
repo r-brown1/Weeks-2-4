@@ -15,4 +15,3 @@ if __name__ == '__main__':
     run_general_report(students.STUDENT_DATA)
     add_hobby_and_print_report('Joe Feldman', "Jogging", students.STUDENT_DATA)
     # add_hobby_and_print_report('Joe Feldman', "Music", students.STUDENT_DATA)
-
