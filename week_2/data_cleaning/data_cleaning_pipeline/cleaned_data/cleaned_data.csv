@@ -1,0 +1,20 @@
+id,age,status,city,date,price,gender,name,score,height,salary,income,expenses,sales,grade,experience,normalized_score,expenses_outlier,department_Finance,department_HR,department_IT
+1,25,Single,new york,2022-01-01,59.39,Male,john,68,166.01,50000,3000,1000,500,A,2,0.35,False,False,True,False
+2,31,Married,los angeles,2022-01-02,74.37,Female,alice,85,161.73,52000,3200,1200,0,B,5,0.71,False,True,False,False
+3,30,Unknown,chicago,2022-01-03,64.25,Male,bob,74,165.84,49000,3100,1100,300,C,3,0.48,False,False,False,True
+4,22,Single,houston,2022-01-04,59.04,Female,claire,99,164.75,53000,2900,1500,450,A,7,1.0,False,False,True,False
+5,31,Divorced,phoenix,2022-01-05,48.13,Male,eve,79,178.13,1000000,3500,1300,0,B,4,0.58,False,True,False,False
+6,45,Unknown,san diego,2022-01-06,68.13,Female,frank,69,167.71,51000,3300,1250,600,C,6,0.38,False,False,False,True
+7,36,Single,dallas,2022-01-07,49.38,Male,grace,69,191.62,49500,3000,1000,550,A,2,0.38,False,False,True,False
+8,27,Unknown,san jose,2022-01-08,90.26,Female,heidi,64,160.43,50500,3100,1800,400,B,5,0.27,True,True,False,False
+9,31,Married,austin,2022-01-09,96.73,Female,ivan,89,170.67,50000,2999,1700,0,C,3,0.79,True,False,False,True
+10,40,Single,jacksonville,2022-01-10,44.51,Male,judy,82,172.06,52000,7000,1600,700,A,7,0.65,True,False,True,False
+11,33,Unknown,fort worth,2022-01-11,81.26,Male,karl,51,165.43,48500,3100,1100,620,B,4,0.0,False,True,False,False
+12,28,Married,columbus,2022-01-12,57.6,Female,laura,59,159.4,49000,3050,1150,480,C,6,0.17,False,False,False,True
+13,31,Divorced,charlotte,2022-01-13,61.12,Female,mallory,82,176.15,49500,2900,1400,0,A,2,0.65,False,False,True,False
+14,31,Unknown,san francisco,2022-01-14,93.3,Male,niaj,81,184.3,51000,3150,1350,750,B,5,0.62,False,True,False,False
+15,38,Single,indianapolis,2022-01-15,16.39,Female,olivia,60,167.88,50500,3100,1250,600,C,3,0.19,False,False,False,True
+16,29,Married,seattle,2022-01-16,17.84,Male,peggy,73,169.2,50000,3000,1700,620,A,7,0.46,True,False,True,False
+17,26,Divorced,denver,2022-01-17,11.82,Male,sybil,85,174.05,52000,2999,1000,590,B,4,0.71,False,True,False,False
+19,34,Single,boston,2022-01-19,80.03,Male,victor,78,182.54,50500,3200,1650,710,A,2,0.56,True,False,True,False
+20,32,Married,el paso,2022-01-20,88.3,Female,walter,84,184.19,49000,3050,1450,630,B,5,0.69,False,True,False,False

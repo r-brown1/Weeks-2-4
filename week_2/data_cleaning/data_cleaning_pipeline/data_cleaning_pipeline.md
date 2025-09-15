@@ -1,23 +1,32 @@
-# 🧼 Real-World Mini Project: E-Commerce Product Data Cleaning
+# 🧼 Data Cleaning Mini Project – Specification (NumPy/Pandas Only)
 
-## Objective
-You are working as a Data Quality Engineer for an e-commerce platform. Your task is to clean and standardize a messy product catalog (`data.csv`) to ensure consistency and reliability for downstream applications like search, pricing, and recommendation systems.
+## 📄 Project Title: Data Cleaning & Preprocessing Pipeline
 
-## 📁 Folder Structure
+---
+
+## 🎯 Objective
+To build a **modular, reusable data cleaning pipeline** for raw CSV data. The project will ensure the dataset is consistent, clean, and ready for analysis or modeling. This includes handling missing values, standardizing formats, identifying outliers, and encoding categorical variables.
+
+---
+
+## 🗂️ Folder Structure
 
 ```aiignore
-ecommerce_data_cleaning/
+data_cleaning_pipeline/
 │
 ├── data/
-│ └── data.csv # Raw input data (unmodified)
+│   └── data.csv                  # Input file
 │
 ├── cleaned_data/
-│ └── cleaned_products.csv # Cleaned output dataset
+│   └── cleaned_data.csv          # Final cleaned dataset
 │
 ├── src/
-│ └── cleaner.py # All data cleaning functions
+│   ├── data_cleaner.py           # All loading and transformation functions
+│   └── utils.py                  # Helper functions (e.g., outlier detection)
 │
-├── main.py # Entry point to run cleaning pipeline
+│
+├── data_cleaning_pipeline.md
+└── main.py # Entry point to run cleaning pipeline
 ```
 
 ---
@@ -60,7 +69,6 @@ Use **only Pandas** to implement the following transformations on `data.csv`.
 
 ### 8. Encoding
 - Apply one-hot encoding to the `department` column.
-- Apply label encoding to the `grade` column (`A`, `B`, `C` → `0`, `1`, `2`).
 
 ### 9. Generalized Scaling Function
 - Implement `min_max_normalize(df: pd.DataFrame) -> pd.DataFrame`:
@@ -96,6 +104,6 @@ Use **only Pandas** to implement the following transformations on `data.csv`.
   - Original input data must not be modified.
   - Cleaned dataset must be saved as `cleaned_products.csv` in `cleaned_data/`.
 - **No Extra Dependencies**:
-  - Only Pandas is allowed (no sklearn, numpy, etc.).
+  - Only Pandas is allowed (no sklearn, etc.), NumPy is acceptable when necessary.
 
 ---
